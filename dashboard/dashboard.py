@@ -8,8 +8,8 @@ from function import DataAnalyzer
 sns.set(style='dark')
 
 # Prepare Dataset
-day_df = pd.read_csv('https://raw.githubusercontent.com/aismaanly/bikesharing_analysis/refs/heads/main/dashboard/day_clean.csv')
-hour_df = pd.read_csv('https://raw.githubusercontent.com/aismaanly/bikesharing_analysis/refs/heads/main/dashboard/hour_clean.csv')
+day_df = pd.read_csv('https://raw.githubusercontent.com/aismaanly/bikesharing-analysis/refs/heads/main/dashboard/day_clean.csv')
+hour_df = pd.read_csv('https://raw.githubusercontent.com/aismaanly/bikesharing-analysis/refs/heads/main/dashboard/hour_clean.csv')
 
 # Ensure the date column are of type datetime
 datetime_columns = ["date"]
@@ -25,7 +25,7 @@ max_date = day_df["date"].max()
 # Sidebar
 with st.sidebar:
     # Adding a logo
-    st.image("https://raw.githubusercontent.com/aismaanly/bikesharing_analysis/main/dashboard/logo.jpg", width=150 )
+    st.image("https://raw.githubusercontent.com/aismaanly/bikesharing-analysis/main/dashboard/logo.jpg", width=150 )
 
     # Data range
     start_date, end_date = st.date_input(

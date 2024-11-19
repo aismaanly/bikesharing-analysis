@@ -1,7 +1,7 @@
 # Bike Sharing Data Analysis with Python - Dicoding
 ![Bike Share Dashboard](dashboard.gif)
 
-[Click here to view Bike Sharing Dashboard](https://bike-sharing-analysis-aismaanly.streamlit.app/)
+[Click here to view Bike Sharing Dashboard](https://bikesharing-analysis-aismaanly.streamlit.app/)
 
 ## Table of Contents
 - [Overview](#overview)
